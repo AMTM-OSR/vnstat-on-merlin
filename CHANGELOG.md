@@ -5,7 +5,7 @@ Note: R1 runs on all supported architectures (ARM, AARCH, MIPS). R2 runs only on
 # Version R2 (based on vnStat 2.x) #
 
 ### v2.0.14 - 2026-Apr-24 ###
-  * IMPROVED: Modified code to ensure that the F/W built-in hook scripts used by the add-on have executable permissions.
+  * IMPROVED: Modified code to ensure that the F/W built-in user hook scripts used by the add-on have executable permissions.
 
   * IMPROVED: Modified code so that during installation, the user is able to select the appropriate uplink interface if the WAN interface/port is found unavailable. This should allow users to install the script on ASUS routers running in "Repeater" or "Access Point" mode.
 
@@ -24,7 +24,7 @@ Note: R1 runs on all supported architectures (ARM, AARCH, MIPS). R2 runs only on
 
   * IMPROVED: Modified code to create slightly larger vnStat PNG images (hourly, daily, monthly, summary, and top-10 reports) for better readability.
 
-  * NEW: The default configuraion file (/opt/share/dn-vnstat.d/vnstat.conf.default) was updated to the 2.13 version.
+  * NEW: The default configuration file (/opt/share/dn-vnstat.d/vnstat.conf.default) was updated to the 2.13 version.
 
   * Miscellaneous code improvements.
 
